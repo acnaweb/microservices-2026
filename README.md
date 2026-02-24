@@ -57,6 +57,25 @@ docker run -d \
     mysql
 ```
 
+## Aulas
+
+### 23/02
+
+⚡ Resumo Rápido
+
+Comando	Função
+* pwd	Mostra diretório atual
+* ls -la	Lista arquivos detalhadamente
+* cd	Entra em pasta
+* mkdir	Cria pasta
+* touch	Cria arquivo
+* tee	Cria/edita arquivo via terminal
+* echo >>	Adiciona conteúdo
+* echo >	Sobrescreve conteúdo
+* history	Histórico de comandos
+* Ctrl + L	Limpa tela
+
+
 --- 
 ### Guia de Markdown
 
