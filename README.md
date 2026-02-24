@@ -11,12 +11,8 @@
 | [API](https://github.com/acnaweb/api) |
 | [Tutorial Java API com Spring](https://github.com/acnaweb/java) |
 | [Docker](https://github.com/acnaweb/docker) |
-| [E-commerce](https://github.com/acnaweb/ecommerce) |
-| [Turma 3SIR](https://github.com/acnaweb/study-apir) |
-| [Turma 3ESW](https://github.com/acnaweb/study-apiw ) |
-| [Turma 3ESX](https://github.com/acnaweb/study-apix ) |
 
-### Toda aula :)
+## Toda aula :)
 
 1 - Clonar seu (ou o meu) repositório:
 
@@ -77,17 +73,17 @@ Comando	Função
 
 
 --- 
-### Guia de Markdown
+## Guia de Markdown
 
 - https://www.markdownguide.org/cheat-sheet/
 
 --- 
-### Databases (Docker)
+## Databases (Docker)
 
 - https://github.com/acnaweb/database
 
 --- 
-### Maven 
+## Maven 
 
 - Executar a aplicação
   
