@@ -22,7 +22,7 @@ cd study-api
 code  .
 ```
 
-2 - Instalar extensão Java no VS Code
+2 - No Visual Code, instalar extensão "Extension Pack for Java" da Microsoft.
 
 3 - Abrir Postman
 
