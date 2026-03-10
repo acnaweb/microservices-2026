@@ -246,3 +246,51 @@ mvn spring-boot:run
 - [eBooks](https://www.kdnuggets.com/2015/09/free-data-science-books.html)
 
 ### [Sem categoria](/conceitos/sem_categoria.md)
+
+
+
+
+pom.xml
+	<build>
+		<finalName>app</finalName>
+		
+Dependencias
+	- DevTools
+	- OpenAPI
+		http://localhost:9000/swagger-ui.html
+
+Transporte de Dados
+------------- xml <elementos> tag
+<clientes>
+    <cliente id="1">
+        <nome>Mercadinho do Bairro</nome>
+    </cliente>
+    <cliente id="2">
+        <nome>Atacadão</nome>
+    </cliente>
+</clientes>   
+------------- json
+[
+	{
+		"nome": "Mercadinho do Bairro",
+		"_id": "1"
+	},
+	{
+		"nome": "Atacadão",
+		"_id": "2"
+	}
+]
+- yaml
+	i[n]dentação (endentação) para aninham atributos semalhantes
+	
+clientes:
+  cliente:
+    - nome: Mercadinho do Bairro
+      id: '1'
+    - nome: Atacadão
+      id: '2'	
+- toon
+
+
+
+	  
