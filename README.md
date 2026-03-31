@@ -55,6 +55,37 @@ docker run -d \
 
 ## Aulas
 
+### Aula 30/03
+
+* composto
+* 
+dados = [10,2,3]
+
+* escalar
+  
+soma = 15
+```
+produtos = List
+add(# em memória)
+
+new Produto()
+- criar um objeto em memória (em um endereço #123)
+
+produto = new Produto()  // #912
+
+produto recebe o endereço do objeto
+produto = #912
+
+produto = new Produto()  // #456
+produto = #456
+```
+
+* Query parameter
+   ?key1=value1&key2=value2&key3=value3
+   
+* Path parameter
+	/{valor}
+	
 ### 23/02
 
 ⚡ Resumo Rápido
