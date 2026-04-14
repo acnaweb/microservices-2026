@@ -54,6 +54,36 @@ docker run -d \
 ```
 
 ## Aulas
+### Aula 13/04
+
+* Cluster
+	* Master  -> Slave (Nodes)
+
+* Deploy (Implantação)	
+	* On Premisse x Cloud
+
+* Imagem - Arquivo binário contendo SO + ??
+	* Download -> repositório Docker Hub
+	
+* Container - Imagem em execução
+
+```	
+	docker run <nome da image>
+	docker run ubuntu
+	docker run -it ubuntu
+	docker ps -a
+```
+
+* Download e gerenciamento de imagem
+
+```
+	docker pull <nome da image>
+	docker pull ubuntu:26.04
+	docker pull debian
+	docker pull mysql
+	docker image ls
+	docker rmi <nome da image>
+```
 
 ### Aula 30/03
 
