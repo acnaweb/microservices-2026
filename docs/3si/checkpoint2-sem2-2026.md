@@ -39,12 +39,12 @@ A aplicação deverá ser desenvolvida utilizando **Java e Spring Boot** e dispo
 
 ## 2. Conexão com SQL Server remoto — 4,0 pontos
 
-A API deverá acessar um **SQL Server remoto**, não sendo permitido utilizar exclusivamente um banco de dados local ou em memória.
+A API deverá acessar um **SQL Server remoto/local**
 
 | Critério | Pontuação |
 |---|---:|
 | Configuração de conexão com SQL Server | 1,0 |
-| Conexão realizada com banco SQL Server remoto | 1,5 |
+| Conexão realizada com banco SQL Server  | 1,5 |
 | Consulta/gravação de dados no banco por meio da API | 1,0 |
 | Aplicação funciona utilizando o banco remoto disponibilizado | 0,5 |
 
@@ -75,7 +75,7 @@ A API deverá utilizar uma camada de persistência para acessar os dados armazen
 O README deverá informar, no mínimo:
 
 - como executar a aplicação;
-- como configurar a conexão com o SQL Server remoto;
+- como configurar a conexão com o SQL Server;
 - quais endpoints podem ser utilizados para testar a API;
 - informações necessárias para realizar a conexão com o banco, quando aplicável.
 
@@ -86,7 +86,7 @@ O README deverá informar, no mínimo:
 | Item | Pontuação |
 |---|---:|
 | 1. API Java com Spring Boot | **3,0** |
-| 2. Conexão com SQL Server remoto | **4,0** |
+| 2. Conexão com SQL Server  | **4,0** |
 | 3. Persistência e operações sobre os dados | **2,0** |
 | 4. Organização e demonstração | **1,0** |
 | **Total** | **10,0 pontos** |
@@ -112,14 +112,3 @@ A entrega deverá ser realizada **por apenas um representante do grupo**.
 
 ---
 
-# Regras para Correção
-
-- O projeto deverá ser desenvolvido em **Java com Spring Boot**.
-- A aplicação deverá disponibilizar uma **API REST funcional**.
-- A API deverá realizar acesso a um **SQL Server remoto**.
-- Não será considerado suficiente utilizar apenas banco de dados local, H2 ou banco em memória.
-- Durante a correção, o funcionamento da conexão com o SQL Server remoto poderá ser demonstrado pelo professor.
-- A API deverá realizar pelo menos uma operação de leitura e uma operação de escrita no banco de dados.
-- O projeto deverá possuir instruções suficientes para sua execução e teste.
-- A ausência de conexão com o SQL Server remoto comprometerá diretamente a pontuação do item 2.
-- Caso a aplicação não seja executável ou não disponibilize os endpoints necessários para demonstração, os critérios correspondentes não poderão ser pontuados.
