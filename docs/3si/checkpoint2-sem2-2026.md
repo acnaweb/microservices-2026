@@ -15,9 +15,9 @@
 
 # Requisito
 
-Criar uma **API REST em Java utilizando Spring Boot**, com acesso a um **banco de dados SQL Server remoto**.
+Criar uma **API REST em Java utilizando Spring Boot**, com acesso a um **banco de dados SQL Server **.
 
-A aplicação deverá ser capaz de realizar operações sobre os dados armazenados no banco remoto por meio de endpoints da API.
+A aplicação deverá ser capaz de realizar operações sobre os dados armazenados no banco  por meio de endpoints da API.
 
 > **Restrição:** não poderá ser utilizado o projeto `study-apir`.
 
@@ -37,7 +37,7 @@ A aplicação deverá ser desenvolvida utilizando **Java e Spring Boot** e dispo
 
 ---
 
-## 2. Conexão com SQL Server remoto — 4,0 pontos
+## 2. Conexão com SQL Server  — 4,0 pontos
 
 A API deverá acessar um **SQL Server remoto/local**
 
@@ -46,9 +46,9 @@ A API deverá acessar um **SQL Server remoto/local**
 | Configuração de conexão com SQL Server | 1,0 |
 | Conexão realizada com banco SQL Server  | 1,5 |
 | Consulta/gravação de dados no banco por meio da API | 1,0 |
-| Aplicação funciona utilizando o banco remoto disponibilizado | 0,5 |
+| Aplicação funciona utilizando o banco  disponibilizado | 0,5 |
 
-Durante a correção, será verificado se a aplicação realmente realiza operações no SQL Server remoto.
+Durante a correção, será verificado se a aplicação realmente realiza operações no SQL Server .
 
 ---
 
